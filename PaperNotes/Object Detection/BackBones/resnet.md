@@ -17,7 +17,7 @@
 
 设计了一类结构，如下描述
 
-![image-20220331174404649](/home/stepend/Planning/Academic/PaperNotes/Object Detection/BackBones/resnet.png)
+![image-20220331174404649](./resnet.png)
 
 模块的总体目标是得到H(x)，但有的时候H(x)不太容易直接得到，就迂回求得H(x)，即引入残差结构，即引入几个卷积层(这里不一定是两个)拟合得到F(x)，文章给出的解释时F(x)更容易优化得到。
 
